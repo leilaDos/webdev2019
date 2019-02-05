@@ -1,0 +1,251 @@
+body{
+    background: linear-gradient( #f7f7f7,#dfe3ee);
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    height: 730px;
+    position: relative;
+    
+
+}
+#topbox{
+    background: linear-gradient(to top, #3C5A99,rgb(86, 117, 185));
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height:50px;
+    font-size: 13px; 
+    padding-bottom: 0px;
+    padding-left:30px;
+    padding-right: 10px;
+    padding-top:20px;
+    border: 1px solid darkblue;
+    display: inline-block;
+    position: relative;
+    font-weight: normal;
+    overflow: initial;
+    
+}
+
+#face{
+    font-size: 33px;
+    font-weight: bold;
+    left: 5%;
+    position:absolute;
+    display: inline;
+    top:5px;
+    
+
+}
+
+div form{
+    float: right;
+    top:5px;
+    position: absolute;
+    right: 10%;
+    left:500px;
+}
+table{
+    border-spacing: 19px 0px;
+}
+a{
+    color:#9cb4d8;
+    text-decoration: none;
+}
+.top{
+    border: 1px black solid;
+    height: 20px;
+    width: 150px;
+}
+
+#login{
+    background-color:rgb(88, 122, 190);
+    border:1px solid darkblue; 
+    font-size: 13px;
+    font-weight:bolder;
+    color:white;
+    z-index: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#login:hover{
+    background-color:rgb(42, 67, 119);
+
+}
+.main{
+    display: inline;
+    
+    
+    
+}
+.main #photo{
+    
+padding-top:90px;
+position: absolute;
+left:3%;
+    
+}
+.main #text{
+    color: rgb(40, 58, 97);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    left:3%;
+    width: 470px;
+    
+    
+    
+}
+#reg
+{
+    float:right;
+    position: absolute;
+    left: 600px;
+    top:70px;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: 80;
+    
+    
+}
+#reg pre{
+    font-size: 20px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+
+}
+#regist{
+    display: inline-block;
+   width:500px;
+    position: absolute;
+    top:200px;
+    left:600px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+#regist input{
+    height: 25px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #ccd3e6;   
+}
+#g2{
+position: absolute;
+left:130px;
+
+}
+#why{
+    font-size:11px;
+    float: right;
+    color:rgb(72, 97, 150)
+    
+    
+}
+#male{
+    position: absolute;
+    top:280px;
+    left:160px;
+    font-size:20px;
+    
+
+}
+#female{
+    position: absolute;
+    top:280px;
+    left:0px;
+    margin-left: 25px;
+    font-size:20px;
+}
+p a{
+    color:rgb(38, 71, 143);
+}
+div #button1{
+    background-color:rgba(17, 138, 17,0.8);
+    border: darkgreen 1px solid;
+    color:white;
+    font-weight: 700;
+    width:200px;
+    position: absolute;
+    left:-10px;
+    z-index: 1;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+    background: linear-gradient(at top, rgb(130, 218, 130,),rgba(77, 177, 77,0.4) );
+    cursor: pointer;
+
+}
+div #button1:hover{
+    background-color:rgba(16, 161, 16, 0.8);
+}
+
+ul{
+    width: 1070px;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px;
+    font-size:14px;
+
+    
+    
+}
+ul li a{
+    color:rgb(85, 116, 182);
+    text-decoration: none;
+
+}
+footer{
+    background-color: white;
+    position: absolute;
+    top:740px;
+    height: 200px;
+    width:110%;
+    margin-left: -10px;
+
+    
+    
+}
+hr{
+    position: absolute;
+    top:50px;
+    left:40px;
+    width:1050px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+#last{
+    color:rgb(121, 120, 120);
+    font-size:13px;
+    position: absolute;
+    top:170px;
+    left:45px;
+}
+input:hover{
+    border: 0px;
+}
+.selected{
+    position: relative;
+}
+.selected select{
+    background: transparent;
+    border: 1px rgb(219, 216, 216) solid;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; 
+    
+}
+#plus{
+    width:35px;
+    font-size:19px;
+    font-weight: bold;
+    opacity: 0.6;
+    text-align: center;
+    height: 27px;
+    background-color: #f0eeee;
+    border:2px solid lightgrey;
+}
+#plus:hover{
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
