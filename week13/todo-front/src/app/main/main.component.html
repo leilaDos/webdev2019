@@ -1,0 +1,42 @@
+<h1>To Do List</h1>
+<div *ngFor="let t of task_lists" class = "task_lists" (click) = "ChangeTask(t)">
+  {{t.id}} . {{t.name}}
+</div>
+<div class="ChangeTask">
+  <input type="text" placeholder="Name of Task" id="newName">
+  <button (click)="updateTaskList()" class="button">Change Task</button>
+  <button (click)="createTaskList()" class="button"> Add Task</button>
+</div>
+<div class="GetTask">
+  <button (click)="getTask()" class = "button"> Get  Task </button>
+  <button (click)="deleteTaskList()" class="button">Delete Task</button>
+</div>
+<div class="something">
+  <input type="text" placeholder="To Do" id="todo" >
+  <input type="text" placeholder="STATUS" id="status">
+  <button class="button" (click)="createTask()"> Create New To Do</button>
+</div>
+<div *ngFor = "let t of tasks" class="tasks">
+  <div class="width">
+      ID_Number:<input type="text" value="{{t.id}}" readonly class="inp">   
+  </div>
+  <div class="width">
+      <p> NAME: <input type="text" placeholder="{{t.name}}" [(ngModel)] = "t.name" class="inp" ></p>  
+  </div>
+  <div class="width">
+      <p>CREATED AT: <input type="text" value="{{t.created_at}}" readonly class="inp"></p>  
+  </div>
+  <div class="width">
+      <p> DUE ON: <input type="text" value="{{t.due_on}}" readonly  class="inp"> </p> 
+  </div>
+  <div class="width">
+      <p> STATUS: <input type="text" placeholder="{{t.status}}" [(ngModel)]="t.status" class="inp" ></p>         
+  </div>
+  <div class="buttons" >
+      <button class="delete" (click)="deleleteTask(t)" >Delete</button>
+      <button class="edit" (click)="updateTask(t)">Edit Task</button>      
+  </div>
+</div>
+
+<!-- [(ngModel)]="taskName"
+[(ngModel)]="taskStatus" -->
